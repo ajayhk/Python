@@ -4,7 +4,7 @@
 class myGen(object):
   def __init__(self, n):
     self.n = n
-    self.num, self.nums = 1, []
+    self.num = 1
 
   def __iter__(self):
     return self
